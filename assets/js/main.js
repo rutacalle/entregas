@@ -51,17 +51,6 @@ const sotero = [-33.576812, -70.581634];
 const bandejon = [-33.577262, -70.582232];
 const jehova = [-33.576219, -70.582849];
 
-//vuelo
-document.getElementById('elena').onclick = function () { map.flyTo(elena, 12, { duration: 9 }); };
-document.getElementById('tottus').onclick = function () { map.flyTo(tottus, 12, { duration: 9 }); };
-document.getElementById('puente').onclick = function () { map.flyTo(puente, 12, { duration: 9 }); };
-document.getElementById('fruna').onclick = function () { map.flyTo(fruna, 12, { duration: 9 }); };
-document.getElementById('matte').onclick = function () { map.flyTo(matte, 12, { duration: 9 }); };
-document.getElementById('paz').onclick = function () { map.flyTo(paz, 12, { duration: 9 }); };
-document.getElementById('sotero').onclick = function () { map.flyTo(sotero, 12, { duration: 9 }); };
-document.getElementById('bandejon').onclick = function () { map.flyTo(bandejon, 12, { duration: 9 }); };
-document.getElementById('jehova').onclick = function () { map.flyTo(jehova, 12, { duration: 9 }); };
-
 //marcadores
 const myMarker1 = L.marker([-33.612367, -70.572543]);
 const myMarker2 = L.marker([-33.612422, -70.573534]);

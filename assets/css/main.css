@@ -9,13 +9,6 @@ body,
     height: 100%;
 }
 
-#boton {
-    position: absolute;
-    color: cyan;
-    left: 10px;
-    top: 10px;
-    z-index: 500
-}
 
 .info {
     padding: 6px 8px;
