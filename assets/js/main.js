@@ -1,5 +1,5 @@
 //base
-const map = L.map('map', { zoomControl: false }).setView([-33.6095548775127, -70.57551529377375], 14);
+const map = L.map('map', { zoomControl: false }).setView([-33.6095548775127, -70.57551529377375], 16);
 const title = L.control();
 title.onAdd = function (map) {
     const div = L.DomUtil.create('div', 'info');
@@ -40,6 +40,8 @@ L.control.layers(baseLayers).addTo(map);
 //zoom
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
 //viajes
+
+
 
 
 
