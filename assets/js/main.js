@@ -27,6 +27,7 @@ const baseLayers = {
     CartoDB: L.tileLayer(CartoDB, { minZoom: 1, maxZoom: 18 }),
     Esri: L.tileLayer(Esri, { minZoom: 1, maxZoom: 18 }),
     CyclOSM: L.tileLayer(CyclOSM, { minZoom: 1, maxZoom: 18 }),
+
     OSM_BZH: L.tileLayer(OSM_BZH, { minZoom: 1, maxZoom: 18 }),
     OSM_HOT: L.tileLayer(OSM_HOT, { minZoom: 1, maxZoom: 18 }),
     OSM_Fr: L.tileLayer(OSM_Fr, { minZoom: 1, maxZoom: 18 }),
