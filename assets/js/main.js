@@ -34,12 +34,15 @@ const baseLayers = {
     OSM_DE: L.tileLayer(OSM_DE, { minZoom: 1, maxZoom: 18 }),
 
 };
+
+//zoom
+new L.Control.Zoom({ position: 'topright' }).addTo(map);
+
 //cuadro
 map.addLayer(baseLayers.CartoDB);
 L.control.layers(baseLayers).addTo(map);
-//zoom
-new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
-//viajes
+
+
 
 
 
@@ -66,6 +69,10 @@ map.addLayer(myMarker6);
 map.addLayer(myMarker7);
 map.addLayer(myMarker8);
 map.addLayer(myMarker9);
+
+
+
+
 
 //textos
 point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
