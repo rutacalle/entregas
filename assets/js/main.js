@@ -12,8 +12,8 @@ title.addTo(map);
 //----------------------------------------------------------------------
 //mapas base
 
-const osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const CartoDB = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+const osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const Esri = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
 const CyclOSM = 'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png';
 const OSM_BZH = 'https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png';
@@ -23,9 +23,9 @@ const OSM_CH = 'https://tile.osm.ch/switzerland/{z}/{x}/{y}.png';
 const OSM_DE = 'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png';
 
 const baseLayers = {
+       CartoDB: L.tileLayer(CartoDB, { minZoom: 1, maxZoom: 18 }),
     OSM: L.tileLayer(osmUrl, { minZoom: 1, maxZoom: 18 }),
-    CartoDB: L.tileLayer(CartoDB, { minZoom: 1, maxZoom: 18 }),
-    Esri: L.tileLayer(Esri, { minZoom: 1, maxZoom: 18 }),
+     Esri: L.tileLayer(Esri, { minZoom: 1, maxZoom: 18 }),
     CyclOSM: L.tileLayer(CyclOSM, { minZoom: 1, maxZoom: 18 }),
     OSM_BZH: L.tileLayer(OSM_BZH, { minZoom: 1, maxZoom: 18 }),
     OSM_HOT: L.tileLayer(OSM_HOT, { minZoom: 1, maxZoom: 18 }),

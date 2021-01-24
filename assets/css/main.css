@@ -11,7 +11,7 @@ body,
 
 #boton {
     position: absolute;
-    color: cyan;
+    color: rgb(219, 24, 24);
     left: 10px;
     top: 10px;
     z-index: 500
