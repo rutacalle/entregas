@@ -41,7 +41,7 @@ map.addLayer(baseLayers.OSM);
 L.control.layers(baseLayers).addTo(map);
 //zoom
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
-//viajes
+
 
 const elena = [-33.612367, -70.572543];
 const tottus = [-33.612422, -70.573534];
