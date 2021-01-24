@@ -35,10 +35,10 @@ const baseLayers = {
 
 };
 //cuadro
-map.addLayer(baseLayers.OSM);
+map.addLayer(baseLayers.CartoDB);
 L.control.layers(baseLayers).addTo(map);
 //zoom
-new L.Control.Zoom({ position: 'topright' }).addTo(map);
+new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
 //viajes
 
 
