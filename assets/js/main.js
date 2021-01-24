@@ -1,5 +1,5 @@
 //base
-const map = L.map('map', { zoomControl: false }).setView([-33.56, -70.56], 16);
+const map = L.map('map', { zoomControl: false }).setView([-33.60, -70.60], 14);
 const title = L.control();
 title.onAdd = function (map) {
     const div = L.DomUtil.create('div', 'info');
