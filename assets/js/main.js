@@ -1,5 +1,5 @@
 //base
-const map = L.map('map', { zoomControl: false }).setView([-33.6095548775127, -70.57551529377375], 16);
+const map = L.map('map', { zoomControl: false }).setView([-33.6095548775127, -70.57551529377375], 15);
 const title = L.control();
 title.onAdd = function (map) {
     const div = L.DomUtil.create('div', 'info');
@@ -27,7 +27,6 @@ const baseLayers = {
     CartoDB: L.tileLayer(CartoDB, { minZoom: 1, maxZoom: 18 }),
     Esri: L.tileLayer(Esri, { minZoom: 1, maxZoom: 18 }),
     CyclOSM: L.tileLayer(CyclOSM, { minZoom: 1, maxZoom: 18 }),
-
     OSM_BZH: L.tileLayer(OSM_BZH, { minZoom: 1, maxZoom: 18 }),
     OSM_HOT: L.tileLayer(OSM_HOT, { minZoom: 1, maxZoom: 18 }),
     OSM_Fr: L.tileLayer(OSM_Fr, { minZoom: 1, maxZoom: 18 }),
