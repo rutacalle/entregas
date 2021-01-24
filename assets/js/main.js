@@ -41,7 +41,7 @@ map.addLayer(baseLayers.OSM);
 L.control.layers(baseLayers).addTo(map);
 //zoom
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
-
+//viajes
 
 const elena = [-33.612367, -70.572543];
 const tottus = [-33.612422, -70.573534];
@@ -53,9 +53,38 @@ const sotero = [-33.576812, -70.581634];
 const bandejon = [-33.577262, -70.582232];
 const jehova = [-33.576219, -70.582849];
 
+//vuelo
+document.getElementById('elena').onclick = function () { map.flyTo(elena, 12, { duration: 9 }); };
+document.getElementById('tottus').onclick = function () { map.flyTo(tottus, 12, { duration: 9 }); };
+document.getElementById('puente').onclick = function () { map.flyTo(puente, 12, { duration: 9 }); };
+document.getElementById('fruna').onclick = function () { map.flyTo(fruna, 12, { duration: 9 }); };
+document.getElementById('matte').onclick = function () { map.flyTo(matte, 12, { duration: 9 }); };
+document.getElementById('paz').onclick = function () { map.flyTo(paz, 12, { duration: 9 }); };
+document.getElementById('sotero').onclick = function () { map.flyTo(sotero, 12, { duration: 9 }); };
+document.getElementById('bandejon').onclick = function () { map.flyTo(bandejon, 12, { duration: 9 }); };
+document.getElementById('jehova').onclick = function () { map.flyTo(jehova, 12, { duration: 9 }); };
 
+//marcadores
+const myMarker1 = L.marker([-33.612367, -70.572543]);
+const myMarker2 = L.marker([-33.612422, -70.573534]);
+const myMarker3 = L.marker([-33.609554, -70.575515]);
+const myMarker4 = L.marker([-33.608687, -70.577718]);
+const myMarker5 = L.marker([-33.60781, -70.57882]);
+const myMarker6 = L.marker([-33.60355, -70.57611]);
+const myMarker7 = L.marker([-33.576812, -70.581634]);
+const myMarker8 = L.marker([-33.577262, -70.582232]);
+const myMarker9 = L.marker([-33.576219, -70.582849]);
 
-
+const geoJsonLayer = L.geoJson().addTo(map);
+map.addLayer(myMarker1);
+map.addLayer(myMarker2);
+map.addLayer(myMarker3);
+map.addLayer(myMarker4);
+map.addLayer(myMarker5);
+map.addLayer(myMarker6);
+map.addLayer(myMarker7);
+map.addLayer(myMarker8);
+map.addLayer(myMarker9);
 
 //textos
 point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
