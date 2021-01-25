@@ -73,34 +73,34 @@ point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
     ("<center><b>Punto 1/11 (elena)</b></center> <li>Santa Elena con Eyzaguirre</li><li>Orilla muro area verde.</li><li>3 tixs.</li>");
 
 point = L.marker([-33.612422, -70.573534]).addTo(map).bindPopup
-    ("<center><b>Estacionamiento Tottus:</b></center> <li>Subterraneo.</li><li>8 tixs.</li>");
+    ("<center><b>Punto 2/11 (tottus)</b></center> <li>Estacionamiento Subterraneo.</li><li>8 tixs.</li><li>Coordinar limpieza.</li>");
 
 point = L.marker([-33.609554, -70.575515]).addTo(map).bindPopup
-    ("<center><b>Plaza de Puente:</b></center> <li>Alta convocatoria</li><li>entre 10 a 20 tixs</li>");
+    ("<center><b>Punto 3/11 (puente)</b></center> <li>Plaza de Puente.</li><li>Alta convocatoria.</li><li>Entre 10 a 20 tixs</li>");
 
 point = L.marker([-33.608687, -70.577718]).addTo(map).bindPopup
-    ("<center><b>Estacionamiento Fruna:</b></center> <li>colocar algo aqui</li><li>definir lugares de entrega</li>");
+    ("<center><b>Punto 4/11 (fruna)</b></center> <li>Cuidadores autos</li><li>5 a 7 tixs</li>");
 
 point = L.marker([-33.60781, -70.57882]).addTo(map).bindPopup
-    ("<center><b>Plaza La Matte:</b></center> <li>barberia y cocina</li><li>3 a 5 tixs aprox.</li>");
+    ("<center><b>Punto 5/11 (matte)</b></center> <li>Plaza La Matte.</li><li>Cocina Red, Barbería.</li><li>3 a 5 tixs aprox.</li>");
 
 point = L.marker([-33.60355, -70.57611]).addTo(map).bindPopup
-    ("<center><b>Plaza La Paz:</b></center> <li>actividad barberia (editable)</li><li>4 a 6 tixs aprox.</li>");
+    ("<center><b>Punto 6/11 (paz)</b></center> <li>Plaza La Paz</li><li>Actividad barberia.</li><li>4 a 6 tixs aprox.</li>");
 
 point = L.marker([-33.576906, -70.581498]).addTo(map).bindPopup
-    ("<center><b>Sotero:</b></center> <li>Area verde</li><li>3 tixs aprox.</li>");
+    ("<center><b>Punto 7/11 (sotero)</b></center>  <li>Hospital Sotero del Rio.</li><li>Area verde.</li><li>3 tixs aprox.</li>");
 
 point = L.marker([-33.577262, -70.582232]).addTo(map).bindPopup
-    ("<center><b>Bandejon:</b></center> <li>Detras Metro</li><li>3 tixs aprox.</li><li>una carpa</li>");
+    ("<center><b>Punto 8/11 (bandejon)</b></center> <li>Bandejon central</li><li>Detras estacion Metro</li><li>3 tixs aprox.</li><li>1 carpa.</li>");
 
 point = L.marker([-33.576219, -70.582849]).addTo(map).bindPopup
-    ("<center><b>Esquina Testigos de Jehova:</b></center> <li>una carpa</li><li>1 tio (Gary).</li>");
+    ("<center><b>Punto 9/11 (jehova)</b></center> <li>Esquina templo</li><li>1 carpa</li><li>1 tix.</li>");
 
 point = L.marker([-33.614244, -70.57489]).addTo(map).bindPopup
-    ("<center><b>Triangulo:</b></center> <li>Frente a El Poderoso</li><li>referencia escultura</li><li>3 tixs aprox.</li>");
+    ("<center><b>Punto 10/11 (poderoso)</b></center> <li>Frente a El Poderoso</li><li>2 rucos.</li><li>referencia escultura</li><li>3 tixs aprox.</li>");
 
 point = L.marker([-33.595561, -70.578706]).addTo(map).bindPopup
-    ("<center><b>Rejas:</b></center> <li>Frente a Municipalidad</li><li>entre rejas, bajo metro</li><li>1 tix (esporadico)</li>");
+    ("<center><b>Punto 11/11</b></center> <li>Frente a Municipalidad.</li><li>Bajo metro, entre rejas.</li><li>1 tix (esporadico)</li>");
 
 //zoom
 const osm2 = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { minZoom: 0, maxZoom: 18 });
