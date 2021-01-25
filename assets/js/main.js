@@ -53,6 +53,7 @@ const myMarker7 = L.marker([-33.576812, -70.581634]);
 const myMarker8 = L.marker([-33.577262, -70.582232]);
 const myMarker9 = L.marker([-33.576219, -70.582849]);
 const myMarker10 = L.marker([-33.614244, -70.57489]);
+const frente = L.marker([-33.595822, -70.578801]);
 
 const geoJsonLayer = L.geoJson().addTo(map);
 map.addLayer(myMarker1);
@@ -65,6 +66,7 @@ map.addLayer(myMarker7);
 map.addLayer(myMarker8);
 map.addLayer(myMarker9);
 map.addLayer(myMarker10);
+map.addLayer(frente);
 
 //textos
 point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
@@ -96,6 +98,9 @@ point = L.marker([-33.576219, -70.582849]).addTo(map).bindPopup
 
 point = L.marker([-33.614244, -70.57489]).addTo(map).bindPopup
     ("<center><b>Triangulo:</b></center> <li>Frente a El Poderoso</li><li>referencia escultura</li><li>3 tixs aprox.</li>");
+
+point = L.marker([-33.595822, -70.578801]).addTo(map).bindPopup
+    ("<center><b>Rejas:</b></center> <li>Frente a Municipalidad</li><li>entre rejas, bajo metro</li><li>1 tix (esporadico)</li>");
 
 //zoom
 const osm2 = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { minZoom: 0, maxZoom: 18 });
