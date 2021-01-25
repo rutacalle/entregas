@@ -104,7 +104,7 @@ point = L.marker([-33.614244, -70.57489]).addTo(map).bindPopup
 point = L.marker([-33.595561, -70.578706]).addTo(map).bindPopup
     ("<center><b>REJAS</b></center> <li>Frente a Municipalidad.</li><li>Bajo metro, entre rejas.</li><li>1 tix (esporadico)</li>");
 
-point = L.marker([-33.595561, -70.578706]).addTo(map).bindPopup
+point = L.marker([-33.599432, -70.556685]).addTo(map).bindPopup
     ("<center><b>BALLENA</b></center> <li>Cerro La Ballena.</li><li>1 ruco.</li><li>4 tixs.</li><li>Bajan con termo.</li>");
 
 //zoom
