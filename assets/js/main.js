@@ -43,7 +43,7 @@ map.addLayer(baseLayers.CartoDB);
 L.control.layers(baseLayers).addTo(map);
 
 //marcadores
-const myMarker1 = L.marker([-33.612367, -70.572543]);
+const elena = L.marker([-33.612367, -70.572543]);
 const myMarker2 = L.marker([-33.612422, -70.573534]);
 const myMarker3 = L.marker([-33.609554, -70.575515]);
 const myMarker4 = L.marker([-33.608687, -70.577718]);
@@ -56,7 +56,7 @@ const myMarker10 = L.marker([-33.614244, -70.57489]);
 const frente = L.marker([-33.595561, -70.578706]);
 
 const geoJsonLayer = L.geoJson().addTo(map);
-map.addLayer(myMarker1);
+map.addLayer(elena);
 map.addLayer(myMarker2);
 map.addLayer(myMarker3);
 map.addLayer(myMarker4);
