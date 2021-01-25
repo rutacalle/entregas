@@ -54,6 +54,7 @@ const bandejon = L.marker([-33.577262, -70.582232]);
 const jehova = L.marker([-33.576219, -70.582849]);
 const poderoso = L.marker([-33.614244, -70.57489]);
 const rejas = L.marker([-33.595561, -70.578706]);
+const ballena = L.marker([-33.599432, -70.556685]);
 
 const geoJsonLayer = L.geoJson().addTo(map);
 map.addLayer(elena);
@@ -67,6 +68,7 @@ map.addLayer(bandejon);
 map.addLayer(jehova);
 map.addLayer(poderoso);
 map.addLayer(rejas);
+map.addLayer(ballena);
 
 //textos
 point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
@@ -101,6 +103,9 @@ point = L.marker([-33.614244, -70.57489]).addTo(map).bindPopup
 
 point = L.marker([-33.595561, -70.578706]).addTo(map).bindPopup
     ("<center><b>REJAS</b></center> <li>Frente a Municipalidad.</li><li>Bajo metro, entre rejas.</li><li>1 tix (esporadico)</li>");
+
+point = L.marker([-33.595561, -70.578706]).addTo(map).bindPopup
+    ("<center><b>BALLENA</b></center> <li>Cerro La Ballena.</li><li>1 ruco.</li><li>4 tixs.</li><li>Bajan con termo.</li>");
 
 //zoom
 const osm2 = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { minZoom: 0, maxZoom: 18 });
