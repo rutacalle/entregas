@@ -95,7 +95,7 @@ point = L.marker([-33.576219, -70.582849]).addTo(map).bindPopup
     ("<center><b>Esquina Testigos de Jehova:</b></center> <li>una carpa</li><li>1 tio (Gary).</li>");
 
 point = L.marker([-33.614244, -70.57489]).addTo(map).bindPopup
-    ("<center><b>Triangulo:</b></center> <li>Frente a 'El Poderoso'</li><li>referencia escultura</li><li>3 tixs aprox.</li>");
+    ("<center><b>Triangulo:</b></center> <li>Frente a El Poderoso</li><li>referencia escultura</li><li>3 tixs aprox.</li>");
 
 //zoom
 const osm2 = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { minZoom: 0, maxZoom: 18 });
