@@ -49,7 +49,7 @@ const myMarker3 = L.marker([-33.609554, -70.575515]);
 const myMarker4 = L.marker([-33.608687, -70.577718]);
 const myMarker5 = L.marker([-33.60781, -70.57882]);
 const myMarker6 = L.marker([-33.60355, -70.57611]);
-const myMarker7 = L.marker([-33.576846, -70.581455]);
+const myMarker7 = L.marker([-33.576906, -70.581498]);
 const myMarker8 = L.marker([-33.577262, -70.582232]);
 const myMarker9 = L.marker([-33.576219, -70.582849]);
 const myMarker10 = L.marker([-33.614244, -70.57489]);
@@ -87,7 +87,7 @@ point = L.marker([-33.60781, -70.57882]).addTo(map).bindPopup
 point = L.marker([-33.60355, -70.57611]).addTo(map).bindPopup
     ("<center><b>Plaza La Paz:</b></center> <li>actividad barberia (editable)</li><li>4 a 6 tixs aprox.</li>");
 
-point = L.marker([-33.576846, -70.581455]).addTo(map).bindPopup
+point = L.marker([-33.576906, -70.581498]).addTo(map).bindPopup
     ("<center><b>Sotero:</b></center> <li>Area verde</li><li>3 tixs aprox.</li>");
 
 point = L.marker([-33.577262, -70.582232]).addTo(map).bindPopup
