@@ -44,29 +44,29 @@ L.control.layers(baseLayers).addTo(map);
 
 //marcadores
 const elena = L.marker([-33.612367, -70.572543]);
-const myMarker2 = L.marker([-33.612422, -70.573534]);
-const myMarker3 = L.marker([-33.609554, -70.575515]);
-const myMarker4 = L.marker([-33.608687, -70.577718]);
-const myMarker5 = L.marker([-33.60781, -70.57882]);
-const myMarker6 = L.marker([-33.60355, -70.57611]);
-const myMarker7 = L.marker([-33.576906, -70.581498]);
-const myMarker8 = L.marker([-33.577262, -70.582232]);
-const myMarker9 = L.marker([-33.576219, -70.582849]);
-const myMarker10 = L.marker([-33.614244, -70.57489]);
-const frente = L.marker([-33.595561, -70.578706]);
+const tottus = L.marker([-33.612422, -70.573534]);
+const puente = L.marker([-33.609554, -70.575515]);
+const fruna = L.marker([-33.608687, -70.577718]);
+const matte = L.marker([-33.60781, -70.57882]);
+const paz = L.marker([-33.60355, -70.57611]);
+const sotero = L.marker([-33.576906, -70.581498]);
+const bandejon = L.marker([-33.577262, -70.582232]);
+const jehova = L.marker([-33.576219, -70.582849]);
+const poderoso = L.marker([-33.614244, -70.57489]);
+const rejas = L.marker([-33.595561, -70.578706]);
 
 const geoJsonLayer = L.geoJson().addTo(map);
 map.addLayer(elena);
-map.addLayer(myMarker2);
-map.addLayer(myMarker3);
-map.addLayer(myMarker4);
-map.addLayer(myMarker5);
-map.addLayer(myMarker6);
-map.addLayer(myMarker7);
-map.addLayer(myMarker8);
-map.addLayer(myMarker9);
-map.addLayer(myMarker10);
-map.addLayer(frente);
+map.addLayer(tottus);
+map.addLayer(puente);
+map.addLayer(fruna);
+map.addLayer(matte);
+map.addLayer(paz);
+map.addLayer(sotero);
+map.addLayer(bandejon);
+map.addLayer(jehova);
+map.addLayer(poderoso);
+map.addLayer(rejas);
 
 //textos
 point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
