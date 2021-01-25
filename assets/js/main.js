@@ -1,5 +1,5 @@
 //base
-const map = L.map('map', { zoomControl: false }).setView([-33.58, -70.54], 10);
+const map = L.map('map', { zoomControl: false }).setView([-33.58, -70.54], 12);
 const title = L.control();
 title.onAdd = function (map) {
     const div = L.DomUtil.create('div', 'info');
@@ -42,12 +42,6 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 map.addLayer(baseLayers.CartoDB);
 L.control.layers(baseLayers).addTo(map);
 
-
-
-
-
-
-
 //marcadores
 const myMarker1 = L.marker([-33.612367, -70.572543]);
 const myMarker2 = L.marker([-33.612422, -70.573534]);
@@ -69,10 +63,6 @@ map.addLayer(myMarker6);
 map.addLayer(myMarker7);
 map.addLayer(myMarker8);
 map.addLayer(myMarker9);
-
-
-
-
 
 //textos
 point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
