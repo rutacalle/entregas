@@ -52,7 +52,7 @@ const myMarker6 = L.marker([-33.60355, -70.57611]);
 const myMarker7 = L.marker([-33.576812, -70.581634]);
 const myMarker8 = L.marker([-33.577262, -70.582232]);
 const myMarker9 = L.marker([-33.576219, -70.582849]);
-const poderoso = L.marker([-33.614244, -70.57489]);
+const myMarker10 = L.marker([-33.614244, -70.57489]);
 
 const geoJsonLayer = L.geoJson().addTo(map);
 map.addLayer(myMarker1);
@@ -64,7 +64,7 @@ map.addLayer(myMarker6);
 map.addLayer(myMarker7);
 map.addLayer(myMarker8);
 map.addLayer(myMarker9);
-map.addLayer(poderoso);
+map.addLayer(myMarker10);
 
 //textos
 point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
