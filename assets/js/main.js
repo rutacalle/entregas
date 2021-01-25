@@ -70,7 +70,7 @@ map.addLayer(rejas);
 
 //textos
 point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
-    ("<center><b>Santa Elena con Eyzaguirre:</b></center> <li>Orilla muro area verde.</li><li>3 tixs.</li>");
+    ("<center><b>Punto 1/11 (elena)</b></center> <li>Santa Elena con Eyzaguirre</li><li>Orilla muro area verde.</li><li>3 tixs.</li>");
 
 point = L.marker([-33.612422, -70.573534]).addTo(map).bindPopup
     ("<center><b>Estacionamiento Tottus:</b></center> <li>Subterraneo.</li><li>8 tixs.</li>");
