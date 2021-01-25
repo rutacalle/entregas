@@ -1,10 +1,10 @@
 //base
-const map = L.map('map', { zoomControl: false }).setView([-33.59, -70.58], 14);
+const map = L.map('map', { zoomControl: false }).setView([-33.5920, -70.5811], 14);
 const title = L.control();
 title.onAdd = function (map) {
     const div = L.DomUtil.create('div', 'info');
     div.innerHTML +=
-        '<h5>Puntos de entrega</h5> Desayunos, Almuerzos y Ruta noche';
+        '<h6>Puntos de entrega</h6> Desayunos, Almuerzos y Ruta noche';
 
     return div;
 };
