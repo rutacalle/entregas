@@ -79,10 +79,10 @@ point = L.marker([-33.608687, -70.577718]).addTo(map).bindPopup
     ("<center><b>ESTACIONAMIENTOS</b></center> <li>Estacionamientos Fruna</li><li>Cuidadores autos</li><li>5 a 7 tixs</li>");
 
 point = L.marker([-33.60781, -70.57882]).addTo(map).bindPopup
-    ("<center><b>MATTE</b></center> <li>Plaza La Matte.</li><li>Cocina Red, Barbería.</li><li>3 a 5 tixs aprox.</li>");
+    ("<center><b>MATTE</b></center> <li>Plaza La Matte.</li><li>Cocina Red.</li></li><li>Actividad Barbería.</li><li>3 a 5 tixs aprox.</li>");
 
 point = L.marker([-33.60355, -70.57611]).addTo(map).bindPopup
-    ("<center><b>PAZ</b></center> <li>Plaza La Paz</li><li>Actividad barberia.</li><li>4 a 6 tixs aprox.</li>");
+    ("<center><b>PAZ</b></center> <li>Plaza La Paz</li><li>Actividad Barberia.</li><li>4 a 6 tixs aprox.</li>");
 
 point = L.marker([-33.576906, -70.581498]).addTo(map).bindPopup
     ("<center><b>SOTERO</b></center>  <li>Hospital Sotero del Rio.</li><li>Area verde.</li><li>3 tixs aprox.</li>");
