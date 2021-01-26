@@ -16,7 +16,6 @@ const Base = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{
 const Calles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const Satelite = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
 const Ciclovias = 'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png';
-const Avenidas = 'https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png';
 const Publico = 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
 const Metros = 'https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png';
 const Rutas = 'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png';
@@ -26,7 +25,6 @@ const baseLayers = {
     Calles: L.tileLayer(Calles, { minZoom: 1, maxZoom: 18 }),
      Satelite: L.tileLayer(Satelite, { minZoom: 1, maxZoom: 18 }),
     Ciclovias: L.tileLayer(Ciclovias, { minZoom: 1, maxZoom: 18 }),
-    Avenidas: L.tileLayer(Avenidas, { minZoom: 1, maxZoom: 18 }),
     Publico: L.tileLayer(Publico, { minZoom: 1, maxZoom: 18 }),
     Metros: L.tileLayer(Metros, { minZoom: 1, maxZoom: 18 }),
     Rutas: L.tileLayer(Rutas, { minZoom: 1, maxZoom: 18 }),
