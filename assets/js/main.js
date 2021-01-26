@@ -70,7 +70,7 @@ point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
     ("<center><b>ELENA</b></center> <li>Santa Elena con Eyzaguirre</li><li>Orilla muro area verde.</li><li>3 tixs.</li>");
 
 point = L.marker([-33.612422, -70.573534]).addTo(map).bindPopup
-    ("<center><b>SUBTERRANEO</b></center> <li>Estacionamiento Subterraneo.</li><li>8 tixs.</li><li>Coordinar limpieza.</li>");
+    ("<center><b>SUBTERRANEO</b></center> <li>Estacionamiento Tottus.</li><li>8 tixs.</li><li>Coordinar limpieza.</li>");
 
 point = L.marker([-33.609554, -70.575515]).addTo(map).bindPopup
     ("<center><b>PUENTE</b></center> <li>Plaza de Puente Alto.</li><li>Gran convocatoria.</li><li>Entre 10 a 20 tixs</li>");
