@@ -1,6 +1,6 @@
 /*pantalla completa*/
 body {
-    padding: 0px;
+    padding: 0;
     margin: 0;
 }
 
@@ -8,6 +8,7 @@ html,
 body,
 #map {
     height: 100%;
+    width: 100vw;
 }
 /*pantalla completa*/
 

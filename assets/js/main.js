@@ -107,3 +107,4 @@ const osm2 = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { minZoo
 const miniMap = new L.Control.MiniMap(osm2, { toggleDisplay: true, minimized: true, position: 'bottomright' }).addTo(map);
 const escala = L.control.scale({ position: 'bottomleft', imperial: false });
 map.addControl(escala);
+
