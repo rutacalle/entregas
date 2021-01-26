@@ -30,7 +30,6 @@ const baseLayers = {
     Publico: L.tileLayer(Publico, { minZoom: 1, maxZoom: 18 }),
     Metros: L.tileLayer(Metros, { minZoom: 1, maxZoom: 18 }),
     Rutas: L.tileLayer(Rutas, { minZoom: 1, maxZoom: 18 }),
-
 };
 
 //zoom
@@ -52,7 +51,7 @@ const bandejon = L.marker([-33.577262, -70.582232]);
 const jehova = L.marker([-33.576219, -70.582849]);
 const poderoso = L.marker([-33.614244, -70.57489]);
 const rejas = L.marker([-33.595561, -70.578706]);
-const ballena = L.marker([-33.599432, -70.556685]);
+const ballena = L.marker([-33.599375, -70.555877]);
 
 const geoJsonLayer = L.geoJson().addTo(map);
 map.addLayer(elena);
@@ -102,7 +101,7 @@ point = L.marker([-33.614244, -70.57489]).addTo(map).bindPopup
 point = L.marker([-33.595561, -70.578706]).addTo(map).bindPopup
     ("<center><b>REJAS</b></center> <li>Frente a Municipalidad.</li><li>Bajo metro, entre rejas.</li><li>1 tix (esporadico)</li>");
 
-point = L.marker([-33.599432, -70.556685]).addTo(map).bindPopup
+point = L.marker([-33.599375, -70.555877]).addTo(map).bindPopup
     ("<center><b>BALLENA</b></center> <li>Cerro La Ballena.</li><li>1 ruco.</li><li>4 tixs.</li><li>Bajan con termo.</li>");
 
 //zoom
