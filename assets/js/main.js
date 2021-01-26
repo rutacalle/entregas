@@ -12,26 +12,24 @@ title.addTo(map);
 //----------------------------------------------------------------------
 //mapas base
 
-const CartoDB = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
-const osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-const Esri = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
-const CyclOSM = 'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png';
-const OSM_BZH = 'https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png';
-const OSM_HOT = 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
-const OSM_Fr = 'https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png';
-const OSM_CH = 'https://tile.osm.ch/switzerland/{z}/{x}/{y}.png';
-const OSM_DE = 'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png';
+const Base = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+const Calles = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+const Satelite = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+const Ciclovias = 'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png';
+const Avenidas = 'https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png';
+const Publico = 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
+const Metros = 'https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png';
+const Rutas = 'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png';
 
 const baseLayers = {
-       CartoDB: L.tileLayer(CartoDB, { minZoom: 1, maxZoom: 18 }),
-    OSM: L.tileLayer(osmUrl, { minZoom: 1, maxZoom: 18 }),
-     Esri: L.tileLayer(Esri, { minZoom: 1, maxZoom: 18 }),
-    CyclOSM: L.tileLayer(CyclOSM, { minZoom: 1, maxZoom: 18 }),
-    OSM_BZH: L.tileLayer(OSM_BZH, { minZoom: 1, maxZoom: 18 }),
-    OSM_HOT: L.tileLayer(OSM_HOT, { minZoom: 1, maxZoom: 18 }),
-    OSM_Fr: L.tileLayer(OSM_Fr, { minZoom: 1, maxZoom: 18 }),
-    OSM_CH: L.tileLayer(OSM_CH, { minZoom: 1, maxZoom: 18 }),
-    OSM_DE: L.tileLayer(OSM_DE, { minZoom: 1, maxZoom: 18 }),
+       Base: L.tileLayer(Base, { minZoom: 1, maxZoom: 18 }),
+    Calles: L.tileLayer(Calles, { minZoom: 1, maxZoom: 18 }),
+     Satelite: L.tileLayer(Satelite, { minZoom: 1, maxZoom: 18 }),
+    Ciclovias: L.tileLayer(Ciclovias, { minZoom: 1, maxZoom: 18 }),
+    Avenidas: L.tileLayer(Avenidas, { minZoom: 1, maxZoom: 18 }),
+    Publico: L.tileLayer(Publico, { minZoom: 1, maxZoom: 18 }),
+    Metros: L.tileLayer(Metros, { minZoom: 1, maxZoom: 18 }),
+    Rutas: L.tileLayer(Rutas, { minZoom: 1, maxZoom: 18 }),
 
 };
 
@@ -39,7 +37,7 @@ const baseLayers = {
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
 //cuadro
-map.addLayer(baseLayers.CartoDB);
+map.addLayer(baseLayers.Base);
 L.control.layers(baseLayers).addTo(map);
 
 //marcadores
