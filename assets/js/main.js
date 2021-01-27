@@ -39,31 +39,22 @@ map.addLayer(baseLayers.Base);
 L.control.layers(baseLayers).addTo(map);
 
 
-var Icono = L.icon({
-    iconUrl: "../images/homeless.png",
-    iconSize: [30, 40],
-    iconAnchor: [15, 40],
-    popupAnchor: [0, -40]
-});
+/*cobertura*/
+var polygon = L.polygon([
+    [-33.576219, -70.582849],
+    [-33.576906, -70.581498],
+    [-33.59934, -70.556156],
+    [-33.612367, -70.572543],
+    [-33.612422, -70.573534],
+    [-33.614244, -70.57489],
+    [-33.609554, -70.575515],
+    [-33.608687, -70.577718],
+    [-33.60781, -70.57882],
+    [-33.60355, -70.57611],
+    [-33.595561, -70.578706],
+    [-33.577262, -70.582232],
+]).addTo(map);
 
-
-var Augusta_Emerita = L.marker([38.91667, -6.33333], {
-    title: "Augusta Emerita",
-    icon: Icono
-}).bindPopup("<i>Augusta Emerita</i>")
-    .addTo(map);
-var Corduba = L.marker([37.8847, -4.77639], {
-    title: "Corduba",
-    draggable: false,
-    icon: Icono
-}).bindPopup("<b>Corduba</b>")
-    .addTo(map);
-var Tarraco = L.marker([41.114722, 1.259306], {
-    title: "Tarraco",
-    opacity: 0.5,
-    icon: Icono
-}).bindPopup("<h2>Tarraco</h2>")
-    .addTo(map);
 
 
 
