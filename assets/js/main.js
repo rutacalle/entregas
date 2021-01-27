@@ -175,4 +175,3 @@ point = L.marker([-33.59934, -70.556156]).addTo(map).bindPopup
 
 
 
-
