@@ -31,13 +31,41 @@ const Metros = 'https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png';
 const Rutas = 'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png';
 
 const baseLayers = {
-       Base: L.tileLayer(Base, { minZoom: 1, maxZoom: 18 }),
-    Calles: L.tileLayer(Calles, { minZoom: 1, maxZoom: 18 }),
-     Satelite: L.tileLayer(Satelite, { minZoom: 1, maxZoom: 18 }),
-    Ciclovias: L.tileLayer(Ciclovias, { minZoom: 1, maxZoom: 18 }),
-    Publico: L.tileLayer(Publico, { minZoom: 1, maxZoom: 18 }),
-    Metros: L.tileLayer(Metros, { minZoom: 1, maxZoom: 18 }),
-    Rutas: L.tileLayer(Rutas, { minZoom: 1, maxZoom: 18 }),
+    Base: L.tileLayer(Base, {
+        minZoom: 1, maxZoom: 18,
+        updateWhenIdle: true,
+        reuseTiles: true
+    }),
+    Calles: L.tileLayer(Calles, {
+        minZoom: 1, maxZoom: 18,
+        updateWhenIdle: true,
+        reuseTiles: true
+    }),
+    Satelite: L.tileLayer(Satelite, {
+        minZoom: 1, maxZoom: 18,
+        updateWhenIdle: true,
+        reuseTiles: true
+    }),
+    Ciclovias: L.tileLayer(Ciclovias, {
+        minZoom: 1, maxZoom: 18,
+        updateWhenIdle: true,
+        reuseTiles: true
+    }),
+    Publico: L.tileLayer(Publico, {
+        minZoom: 1, maxZoom: 18,
+        updateWhenIdle: true,
+        reuseTiles: true
+    }),
+    Metros: L.tileLayer(Metros, {
+        minZoom: 1, maxZoom: 18,
+        updateWhenIdle: true,
+        reuseTiles: true
+    }),
+    Rutas: L.tileLayer(Rutas, {
+        minZoom: 1, maxZoom: 18,
+        updateWhenIdle: true,
+        reuseTiles: true
+    }),
 };
 
 //zoom
