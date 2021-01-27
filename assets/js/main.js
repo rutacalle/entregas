@@ -1,5 +1,6 @@
 //base
 const map = L.map('map', { zoomControl: false }).setView([-33.5920, -70.5700], 14);
+
 const title = L.control();
 title.onAdd = function (map) {
     const div = L.DomUtil.create('div', 'info');
@@ -36,6 +37,35 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 //cuadro
 map.addLayer(baseLayers.Base);
 L.control.layers(baseLayers).addTo(map);
+
+
+var Icono = L.icon({
+    iconUrl: "../images/homeless.png",
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [0, -40]
+});
+
+
+var Augusta_Emerita = L.marker([38.91667, -6.33333], {
+    title: "Augusta Emerita",
+    icon: Icono
+}).bindPopup("<i>Augusta Emerita</i>")
+    .addTo(map);
+var Corduba = L.marker([37.8847, -4.77639], {
+    title: "Corduba",
+    draggable: false,
+    icon: Icono
+}).bindPopup("<b>Corduba</b>")
+    .addTo(map);
+var Tarraco = L.marker([41.114722, 1.259306], {
+    title: "Tarraco",
+    opacity: 0.5,
+    icon: Icono
+}).bindPopup("<h2>Tarraco</h2>")
+    .addTo(map);
+
+
 
 //marcadores
 const elena = L.marker([-33.612367, -70.572543]);
@@ -102,9 +132,8 @@ point = L.marker([-33.595561, -70.578706]).addTo(map).bindPopup
 point = L.marker([-33.59934, -70.556156]).addTo(map).bindPopup
     ("<center><b>BALLENA</b></center> <li>Cerro La Ballena.</li><li>1 ruco.</li><li>4 tixs.</li><li>Bajan con termo.</li>");
 
-//zoom
-const osm2 = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { minZoom: 0, maxZoom: 18 });
-const miniMap = new L.Control.MiniMap(osm2, { toggleDisplay: true, minimized: true, position: 'bottomright' }).addTo(map);
-const escala = L.control.scale({ position: 'bottomleft', imperial: false });
-map.addControl(escala);
+
+
+
+
 
