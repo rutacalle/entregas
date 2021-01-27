@@ -1,5 +1,14 @@
 //base
-const map = L.map('map', { zoomControl: false }).setView([-33.5920, -70.5700], 14);
+
+
+
+
+
+const map = L.map('map', {
+    zoomControl: false,
+    fadeAnimation: false,
+    markerZoomAnimation: false
+}).setView([-33.5920, -70.5700], 14);
 
 const title = L.control();
 title.onAdd = function (map) {
@@ -39,7 +48,7 @@ map.addLayer(baseLayers.Base);
 L.control.layers(baseLayers).addTo(map);
 
 
-/*cobertura*/
+/*cobertura
 var polygon = L.polygon([
     [-33.576219, -70.582849],
     [-33.576906, -70.581498],
@@ -54,6 +63,14 @@ var polygon = L.polygon([
     [-33.595561, -70.578706],
     [-33.577262, -70.582232],
 ]).addTo(map);
+cobertura*/
+
+
+
+
+
+
+
 
 
 
@@ -67,7 +84,10 @@ const matte = L.marker([-33.60781, -70.57882]);
 const paz = L.marker([-33.60355, -70.57611]);
 const sotero = L.marker([-33.576906, -70.581498]);
 const bandejon = L.marker([-33.577262, -70.582232]);
+
 const jehova = L.marker([-33.576219, -70.582849]);
+
+
 const poderoso = L.marker([-33.614244, -70.57489]);
 const rejas = L.marker([-33.595561, -70.578706]);
 const ballena = L.marker([-33.59934, -70.556156]);
