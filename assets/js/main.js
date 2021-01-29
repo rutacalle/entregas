@@ -112,10 +112,7 @@ const matte = L.marker([-33.60781, -70.57882]);
 const paz = L.marker([-33.60355, -70.57611]);
 const sotero = L.marker([-33.576906, -70.581498]);
 const bandejon = L.marker([-33.577262, -70.582232]);
-
 const jehova = L.marker([-33.576219, -70.582849]);
-
-
 const poderoso = L.marker([-33.614244, -70.57489]);
 const rejas = L.marker([-33.595561, -70.578706]);
 const ballena = L.marker([-33.59934, -70.556156]);
