@@ -126,9 +126,9 @@ const tottus = L.marker([-33.612422, -70.573534], { icon: red }).addTo(map).bind
     ("<center><b>SUBTERRANEO</b></center> <li>Estacionamiento Tottus.</li><li>8 tixs, colchones</li><li>Coordinar limpieza.</li>");
 
 
-const puente = L.marker([-33.609554, -70.575515], { icon: gold }).addTo(map).bindPopup
+const puente = L.marker([-33.609554, -70.575515], { icon: red }).addTo(map).bindPopup
 
-    ("<center><b>PUENTE</b></center> <li>Plaza de Puente Alto.</li><li>2 diabeticos.</li><li>Entre 10 a 20 tixs</li>");
+    ("<center><b>PUENTE</b></center> <li>Plaza de Puente Alto.</li><li>2 colchones, góndola.</li><li>2 diabeticos.</li><li>Entre 10 a 20 tixs</li>");
 
 const fruna = L.marker([-33.608687, -70.577718], { icon: gold }).addTo(map).bindPopup
 
