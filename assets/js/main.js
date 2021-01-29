@@ -134,8 +134,19 @@ map.addLayer(poderoso);
 map.addLayer(rejas);
 map.addLayer(ballena);
 
-//textos
-point = L.marker([-33.612367, -70.572543]).addTo(map).bindPopup
+
+
+
+var greenIcon = L.icon({
+    iconUrl: '../assets/images/tie.png',
+
+    iconSize: [30, 30], // size of the icon
+    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+
+L.marker([-33.612367, -70.572543], { icon: greenIcon }).addTo(map).bindPopup
     ("<center><b>ELENA</b></center> <li>Santa Elena con Eyzaguirre</li><li>Orilla muro area verde.</li><li>3 tixs.</li>");
 
 point = L.marker([-33.612422, -70.573534]).addTo(map).bindPopup
@@ -170,8 +181,5 @@ point = L.marker([-33.595561, -70.578706]).addTo(map).bindPopup
 
 point = L.marker([-33.59934, -70.556156]).addTo(map).bindPopup
     ("<center><b>BALLENA</b></center> <li>Cerro La Ballena.</li><li>1 ruco.</li><li>4 tixs.</li><li>Bajan con termo.</li>");
-
-
-
 
 
